@@ -112,9 +112,13 @@ mark {
   color: black;
   background-color: aquamarine;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 13px;
   margin: 0 -5px 10px;
   cursor: pointer;
+}
+
+.resume {
+  width: 155px;
 }
 
 .btn:hover {
