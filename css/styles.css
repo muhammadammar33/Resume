@@ -9,7 +9,7 @@
 .sidebar {
   background-color: rgb(121, 118, 118);
   /* width: 260px; */
-  height: 100vh;
+  height: 100%;
   font-family: 'PT Serif', serif;
   font-size: 10px;
   transition: transform 0.3s ease-in;
@@ -131,6 +131,24 @@ mark {
   height: auto;
 }
 
+.certifications {
+  margin-top: -10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  /* Adjust the gap between grid items */
+}
+
+/* Add CSS styles for individual certification items (replace with your own styles) */
+.cert {
+  background-color: aquamarine;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
 /********** Contact Form starts **********/
 .contactform {
   font-family: 'PT Serif', serif;
@@ -185,7 +203,7 @@ textarea {
 }
 
 .sidebarGo {
-  transform: translate(-260px, 0px);
+  transform: translate(-400px, 0px);
   position: absolute;
 }
 
@@ -197,7 +215,7 @@ textarea {
 }
 
 .cross {
-  margin-left: 175px;
+  margin-left: 275px;
 }
 
 /********** For large devices **********/
