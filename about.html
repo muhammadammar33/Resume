@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Ammar - Software Developoer, Programmer, Web Developer, AI Enthusaist</title>
-    <link rel="stylesheet" href="./css/styles.css"> <!-- External CSS file for styling -->
+    <title>Muhammad Ammar Cheema - Software Developoer, Programmer, Web Developer, AI Enthusaist</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
 </head>
-
-<body>
-    <!-- container starts -->
+<body class="gradient-backgroundP ">
     <div class="container">
-        <div class="sidebar sidebarGo">
-            
-            <!-- Navigation bar start-->
-            <nav>
-                <ul>
-                    <li><a href="/index.html" class="home">Home</a></li>
-                    <li><a href="/about.html" class="about">About</a></li>
-                    <li><a href="/projects.html" class="projects">Projects</a></li>
-                    <li><a href="/contact.html" class="contact">Contact Me</a></li>
-                    <li><a href="/certifications.html" class="certifications">Certifications</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Navigation bar ends -->
+        <!-- SideBar -->
+        <button class="btn d-lg-none hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><img src="./images/ham.png" alt="ham" width="25px"></button>
 
-        <!-- main content starts -->
-        <div class="main">
-            <div class="hamburger">
-                <img src="/images/ham.png" alt="ham" class="ham" width = "23">
-                <img src="/images/cross.png" alt="cross" class="cross"width = "23">
+        <div class="offcanvas-lg offcanvas-start gradient-background" style="height: 100%; width: 27vw;" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasResponsiveLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
             </div>
+            <div class="offcanvas-body">
+            <div class="flex-shrink-0 p-3 gradient-background" style="height: 100vh; width: 23vw;">
+                <a href="./index.html" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+                    <span class="fs-5 fw-semibold" style="padding-top: 25vh;" >Muhammad Ammar Cheema</span>
+                </a>
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed">
+                            <a href="./index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a>
+                        </button>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed">
+                            <a href="./about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">About</a>
+                        </button>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed">
+                            <a href="./projects.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Projects</a>
+                        </button>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed">
+                            <a href="./certification.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Certifications</a>
+                        </button>
+                    </li>
+                    <li class="border-top my-3"></li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed">
+                            <a href="./contact.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Contact Me</a>
+                        </button>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    
+        <!-- About Content -->
+        <div class="main" style="margin: 50px;">
             <div class="infocontainer">
                 <div class="devInfo">
-                    <h1><mark>About Me</mark></h1>
+                    <h1 class="aboutHeading"><mark>About Me</mark></h1>
                     <p>Enthusiastic Science student with strong programming skills in Python,
                         Java, and C++. Skilled in problem-solving, data structures, and algorithms. Enjoying working in collaboration. Eager to explore AI, machine learning, and cybersecurity. Seeking dynamic opportunities to contribute to innovative projects and make a positive impact in the tech industry. Passionate about continuous learning and staying up-to-date with industry trends.
                     </p>
                     <br>
                     <hr>
-                    <h1><mark>Languages</mark></h1>
+                    <h1 class="aboutHeading"><mark>Languages</mark></h1>
                     <p>
                         <ul>
                             <li>Python</li>
@@ -53,24 +78,22 @@
                     </p>
                     <br>
                     <hr>
-                    <h1><mark>Databases</mark></h1>
+                    <h1 class="aboutHeading"><mark>Databases</mark></h1>
                     <p>
                         <ul>
                             <li>MySQL</li>
                             <li>MongoDb</li>
                         </ul>
                     </p>
-                    <!-- Footer -->
-                        <footer class="footer">
-                            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-                        </footer>
                 </div>
-                <div class="devPic"><img src="/images/DSC_0051-removebg-preview.png" alt="Muhammad Ammar Cheema"></div>
             </div>
+            <!-- Footer -->
+            <footer class="footer">
+                <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+            </footer>
         </div>
-        <!-- main content ends -->
     </div>
-    <!-- container ends -->
-    <script src="/js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
