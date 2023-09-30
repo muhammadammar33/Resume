@@ -315,44 +315,48 @@ textarea {
         display: none;
     }
 
+    .projectHeading {
+        font-size: 18px;
+    }
+
     .Desktop {
-        font-size: 9px;
+        font-size: 7px;
     }
 
     .Travel {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     .MediCare {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     .Bakery {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     #desktopPic img {
         height: 120px;
         width: 130px;
-        margin: 30px 10px 10px 10px;
+        margin: 15px 10px 10px 10px;
     }
 
     #travelPic img {
         height: 120px;
         width: 130px;
-        margin: 20px 10px 10px 10px;
+        margin: 0px 10px 10px 10px;
     }
 
     #mediCarePic img {
         height: 110px;
         width: 130px;
-        margin: 20px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
     }
 
     #bakeryPic img {
         height: 100px;
         width: 130px;
-        margin: 20px 10px 10px 10px;
+        margin: 15px 10px 10px 10px;
     }
 }
 
@@ -364,6 +368,10 @@ textarea {
 
     .devPic {
         display: none;
+    }
+
+    .projectHeading {
+        font-size: 17px;
     }
 
     .Desktop {
@@ -417,6 +425,10 @@ textarea {
         display: none;
     }
 
+    .projectHeading {
+        font-size: 15px;
+    }
+
     .Desktop {
         font-size: 6px;
     }
@@ -431,6 +443,61 @@ textarea {
 
     .Bakery {
         font-size: 6px;
+    }
+
+    #desktopPic img {
+        height: 100px;
+        width: 100px;
+        margin: 30px 10px 10px 10px;
+    }
+
+    #travelPic img {
+        height: 100px;
+        width: 100px;
+        margin: 20px 10px 10px 10px;
+    }
+
+    #mediCarePic img {
+        height: 100px;
+        width: 100px;
+        margin: 20px 10px 10px 10px;
+    }
+
+    #bakeryPic img {
+        height: 100px;
+        width: 100px;
+        margin: 20px 10px 10px 10px;
+    }
+}
+
+@media (max-width: 456px) {
+
+    .sidebar {
+        position: absolute;
+    }
+
+    .devPic {
+        display: none;
+    }
+
+    .projectHeading {
+        font-size: 10px;
+    }
+
+    .Desktop {
+        font-size: 5px;
+    }
+
+    .Travel {
+        font-size: 5px;
+    }
+
+    .MediCare {
+        font-size: 5px;
+    }
+
+    .Bakery {
+        font-size: 5px;
     }
 
     #desktopPic img {
