@@ -278,6 +278,10 @@ textarea {
     background-color: black;
 }
 
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
 .gradient-backgroundP {
     background: linear-gradient(300deg, #252525, aquamarine, #1a1919);
     background-size: 180% 180%;
